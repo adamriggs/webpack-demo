@@ -3,13 +3,13 @@
   "errors": [],
   "warnings": [],
   "version": "1.13.1",
-  "hash": "3c32abd5d5c996f44095",
-  "time": 4973,
-  "publicPath": "",
+  "hash": "cd57d1fa9abe5642ffa6",
+  "time": 4867,
+  "publicPath": "/webpack-demo/",
   "assetsByChunkName": {
     "app": [
-      "app.d0912cb622ec787422d1.js",
-      "app.d0912cb622ec787422d1.js.map"
+      "app.f4b4a5c7814a3f829487.js",
+      "app.f4b4a5c7814a3f829487.js.map"
     ],
     "style": [
       "style.b0f8427dec39f091a4fb.js",
@@ -22,14 +22,14 @@
       "vendor.d92fa32e6e91d693a12f.js.map"
     ],
     "manifest": [
-      "manifest.2c94933bf183c93611c0.js",
-      "manifest.2c94933bf183c93611c0.js.map"
+      "manifest.cb6f1657b51e184e0856.js",
+      "manifest.cb6f1657b51e184e0856.js.map"
     ]
   },
   "assets": [
     {
-      "name": "app.d0912cb622ec787422d1.js.map",
-      "size": 1722,
+      "name": "app.f4b4a5c7814a3f829487.js.map",
+      "size": 1807,
       "chunks": [
         0,
         3
@@ -40,8 +40,8 @@
       "emitted": true
     },
     {
-      "name": "app.d0912cb622ec787422d1.js",
-      "size": 256,
+      "name": "app.f4b4a5c7814a3f829487.js",
+      "size": 280,
       "chunks": [
         0,
         3
@@ -64,8 +64,8 @@
       "emitted": true
     },
     {
-      "name": "manifest.2c94933bf183c93611c0.js",
-      "size": 768,
+      "name": "manifest.cb6f1657b51e184e0856.js",
+      "size": 782,
       "chunks": [
         3
       ],
@@ -135,8 +135,8 @@
       "emitted": true
     },
     {
-      "name": "manifest.2c94933bf183c93611c0.js.map",
-      "size": 8859,
+      "name": "manifest.cb6f1657b51e184e0856.js.map",
+      "size": 8887,
       "chunks": [
         3
       ],
@@ -147,7 +147,7 @@
     },
     {
       "name": "index.html",
-      "size": 494,
+      "size": 564,
       "chunks": [],
       "chunkNames": [],
       "emitted": true
@@ -160,15 +160,15 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 292,
+      "size": 316,
       "names": [
         "app"
       ],
       "files": [
-        "app.d0912cb622ec787422d1.js",
-        "app.d0912cb622ec787422d1.js.map"
+        "app.f4b4a5c7814a3f829487.js",
+        "app.f4b4a5c7814a3f829487.js.map"
       ],
-      "hash": "d0912cb622ec787422d1",
+      "hash": "f4b4a5c7814a3f829487",
       "parents": [
         2
       ],
@@ -179,7 +179,7 @@
           "name": "./app/index.js",
           "index": 0,
           "index2": 34,
-          "size": 124,
+          "size": 148,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -190,7 +190,7 @@
           "assets": [],
           "issuer": null,
           "profile": {
-            "factory": 13,
+            "factory": 15,
             "building": 20,
             "dependencies": 333
           },
@@ -198,7 +198,7 @@
           "errors": 0,
           "warnings": 0,
           "reasons": [],
-          "source": "require('react');\n// require('./main.css');\nvar component = require('./component');\n\ndocument.body.appendChild(component());"
+          "source": "require('react');\n// require('./main.css');\nvar component = require('./component');\nconsole.log(\"index.js\");\ndocument.body.appendChild(component());"
         },
         {
           "id": 34,
@@ -218,7 +218,7 @@
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/app/index.js",
           "profile": {
             "factory": 334,
-            "building": 355
+            "building": 365
           },
           "failed": false,
           "errors": 0,
@@ -288,8 +288,8 @@
           "assets": [],
           "issuer": null,
           "profile": {
-            "factory": 1,
-            "building": 0
+            "factory": 0,
+            "building": 1
           },
           "failed": false,
           "errors": 0,
@@ -313,9 +313,9 @@
           "assets": [],
           "issuer": "multi style",
           "profile": {
-            "factory": 365,
-            "building": 2,
-            "dependencies": 2
+            "factory": 366,
+            "building": 1,
+            "dependencies": 3
           },
           "failed": false,
           "errors": 0,
@@ -349,7 +349,7 @@
           "assets": [],
           "issuer": "multi style",
           "profile": {
-            "factory": 48,
+            "factory": 50,
             "building": 8
           },
           "failed": false,
@@ -417,8 +417,8 @@
           "assets": [],
           "issuer": null,
           "profile": {
-            "factory": 0,
-            "building": 1
+            "factory": 1,
+            "building": 0
           },
           "failed": false,
           "errors": 0,
@@ -442,8 +442,8 @@
           "assets": [],
           "issuer": "multi vendor",
           "profile": {
-            "factory": 44,
-            "building": 323
+            "factory": 37,
+            "building": 332
           },
           "failed": false,
           "errors": 0,
@@ -486,8 +486,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/react.js",
           "profile": {
-            "factory": 354,
-            "building": 26
+            "factory": 365,
+            "building": 25
           },
           "failed": false,
           "errors": 0,
@@ -522,8 +522,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 268,
-            "building": 46
+            "factory": 276,
+            "building": 48
           },
           "failed": false,
           "errors": 0,
@@ -576,8 +576,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 266,
-            "building": 4,
+            "factory": 273,
+            "building": 5,
             "dependencies": 0
           },
           "failed": false,
@@ -613,8 +613,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactChildren.js",
           "profile": {
-            "factory": 38,
-            "building": 34,
+            "factory": 40,
+            "building": 37,
             "dependencies": 0
           },
           "failed": false,
@@ -650,8 +650,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactComponent.js",
           "profile": {
-            "factory": 38,
-            "building": 34
+            "factory": 40,
+            "building": 41
           },
           "failed": false,
           "errors": 0,
@@ -740,9 +740,9 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 266,
+            "factory": 274,
             "building": 23,
-            "dependencies": 20
+            "dependencies": 22
           },
           "failed": false,
           "errors": 0,
@@ -840,8 +840,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactElement.js",
           "profile": {
-            "factory": 23,
-            "building": 33
+            "factory": 25,
+            "building": 41
           },
           "failed": false,
           "errors": 0,
@@ -894,9 +894,9 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 307,
-            "building": 29,
-            "dependencies": 0
+            "factory": 316,
+            "building": 36,
+            "dependencies": 1
           },
           "failed": false,
           "errors": 0,
@@ -994,8 +994,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactChildren.js",
           "profile": {
-            "factory": 38,
-            "building": 30
+            "factory": 40,
+            "building": 38
           },
           "failed": false,
           "errors": 0,
@@ -1048,8 +1048,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactComponent.js",
           "profile": {
-            "factory": 37,
-            "building": 34
+            "factory": 39,
+            "building": 41
           },
           "failed": false,
           "errors": 0,
@@ -1102,8 +1102,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactChildren.js",
           "profile": {
-            "factory": 39,
-            "building": 31,
+            "factory": 40,
+            "building": 40,
             "dependencies": 1
           },
           "failed": false,
@@ -1139,8 +1139,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactElementValidator.js",
           "profile": {
-            "factory": 18,
-            "building": 34
+            "factory": 17,
+            "building": 41
           },
           "failed": false,
           "errors": 0,
@@ -1193,8 +1193,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/traverseAllChildren.js",
           "profile": {
-            "factory": 7,
-            "building": 2
+            "factory": 6,
+            "building": 4
           },
           "failed": false,
           "errors": 0,
@@ -1229,9 +1229,9 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 266,
+            "factory": 274,
             "building": 6,
-            "dependencies": 35
+            "dependencies": 36
           },
           "failed": false,
           "errors": 0,
@@ -1275,9 +1275,9 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactComponent.js",
           "profile": {
-            "factory": 37,
-            "building": 33,
-            "dependencies": 1
+            "factory": 38,
+            "building": 41,
+            "dependencies": 0
           },
           "failed": false,
           "errors": 0,
@@ -1321,8 +1321,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactComponent.js",
           "profile": {
-            "factory": 37,
-            "building": 34
+            "factory": 39,
+            "building": 41
           },
           "failed": false,
           "errors": 0,
@@ -1357,8 +1357,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactInstrumentation.js",
           "profile": {
-            "factory": 4,
-            "building": 11,
+            "factory": 5,
+            "building": 12,
             "dependencies": 1
           },
           "failed": false,
@@ -1512,8 +1512,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactComponent.js",
           "profile": {
-            "factory": 38,
-            "building": 33
+            "factory": 40,
+            "building": 40
           },
           "failed": false,
           "errors": 0,
@@ -1557,9 +1557,9 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 266,
-            "building": 15,
-            "dependencies": 29
+            "factory": 274,
+            "building": 16,
+            "dependencies": 30
           },
           "failed": false,
           "errors": 0,
@@ -1594,8 +1594,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactClass.js",
           "profile": {
-            "factory": 29,
-            "building": 34,
+            "factory": 30,
+            "building": 41,
             "dependencies": 0
           },
           "failed": false,
@@ -1640,8 +1640,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactClass.js",
           "profile": {
-            "factory": 30,
-            "building": 34,
+            "factory": 31,
+            "building": 41,
             "dependencies": 0
           },
           "failed": false,
@@ -1686,8 +1686,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactClass.js",
           "profile": {
-            "factory": 30,
-            "building": 33
+            "factory": 31,
+            "building": 40
           },
           "failed": false,
           "errors": 0,
@@ -1740,8 +1740,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactClass.js",
           "profile": {
-            "factory": 30,
-            "building": 34
+            "factory": 31,
+            "building": 42
           },
           "failed": false,
           "errors": 0,
@@ -1776,8 +1776,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 266,
-            "building": 19,
+            "factory": 274,
+            "building": 26,
             "dependencies": 1
           },
           "failed": false,
@@ -1813,9 +1813,9 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 266,
-            "building": 28,
-            "dependencies": 18
+            "factory": 274,
+            "building": 31,
+            "dependencies": 17
           },
           "failed": false,
           "errors": 0,
@@ -1859,8 +1859,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactDOMFactories.js",
           "profile": {
-            "factory": 27,
-            "building": 34
+            "factory": 22,
+            "building": 41
           },
           "failed": false,
           "errors": 0,
@@ -1895,8 +1895,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 267,
-            "building": 33,
+            "factory": 274,
+            "building": 36,
             "dependencies": 12
           },
           "failed": false,
@@ -1932,8 +1932,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 267,
-            "building": 34
+            "factory": 274,
+            "building": 37
           },
           "failed": false,
           "errors": 0,
@@ -1968,8 +1968,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
           "profile": {
-            "factory": 267,
-            "building": 34,
+            "factory": 275,
+            "building": 36,
             "dependencies": 9
           },
           "failed": false,
@@ -2013,10 +2013,10 @@
         "manifest"
       ],
       "files": [
-        "manifest.2c94933bf183c93611c0.js",
-        "manifest.2c94933bf183c93611c0.js.map"
+        "manifest.cb6f1657b51e184e0856.js",
+        "manifest.cb6f1657b51e184e0856.js.map"
       ],
-      "hash": "2c94933bf183c93611c0",
+      "hash": "cb6f1657b51e184e0856",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -2030,7 +2030,7 @@
       "name": "./app/index.js",
       "index": 0,
       "index2": 34,
-      "size": 124,
+      "size": 148,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -2041,7 +2041,7 @@
       "assets": [],
       "issuer": null,
       "profile": {
-        "factory": 13,
+        "factory": 15,
         "building": 20,
         "dependencies": 333
       },
@@ -2049,7 +2049,7 @@
       "errors": 0,
       "warnings": 0,
       "reasons": [],
-      "source": "require('react');\n// require('./main.css');\nvar component = require('./component');\n\ndocument.body.appendChild(component());"
+      "source": "require('react');\n// require('./main.css');\nvar component = require('./component');\nconsole.log(\"index.js\");\ndocument.body.appendChild(component());"
     },
     {
       "id": 0,
@@ -2068,8 +2068,8 @@
       "assets": [],
       "issuer": null,
       "profile": {
-        "factory": 0,
-        "building": 1
+        "factory": 1,
+        "building": 0
       },
       "failed": false,
       "errors": 0,
@@ -2093,8 +2093,8 @@
       "assets": [],
       "issuer": null,
       "profile": {
-        "factory": 1,
-        "building": 0
+        "factory": 0,
+        "building": 1
       },
       "failed": false,
       "errors": 0,
@@ -2118,8 +2118,8 @@
       "assets": [],
       "issuer": "multi vendor",
       "profile": {
-        "factory": 44,
-        "building": 323
+        "factory": 37,
+        "building": 332
       },
       "failed": false,
       "errors": 0,
@@ -2162,8 +2162,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/react.js",
       "profile": {
-        "factory": 354,
-        "building": 26
+        "factory": 365,
+        "building": 25
       },
       "failed": false,
       "errors": 0,
@@ -2198,8 +2198,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 268,
-        "building": 46
+        "factory": 276,
+        "building": 48
       },
       "failed": false,
       "errors": 0,
@@ -2252,8 +2252,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 266,
-        "building": 4,
+        "factory": 273,
+        "building": 5,
         "dependencies": 0
       },
       "failed": false,
@@ -2289,8 +2289,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactChildren.js",
       "profile": {
-        "factory": 38,
-        "building": 34,
+        "factory": 40,
+        "building": 37,
         "dependencies": 0
       },
       "failed": false,
@@ -2326,8 +2326,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactComponent.js",
       "profile": {
-        "factory": 38,
-        "building": 34
+        "factory": 40,
+        "building": 41
       },
       "failed": false,
       "errors": 0,
@@ -2416,9 +2416,9 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 266,
+        "factory": 274,
         "building": 23,
-        "dependencies": 20
+        "dependencies": 22
       },
       "failed": false,
       "errors": 0,
@@ -2516,8 +2516,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactElement.js",
       "profile": {
-        "factory": 23,
-        "building": 33
+        "factory": 25,
+        "building": 41
       },
       "failed": false,
       "errors": 0,
@@ -2570,9 +2570,9 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 307,
-        "building": 29,
-        "dependencies": 0
+        "factory": 316,
+        "building": 36,
+        "dependencies": 1
       },
       "failed": false,
       "errors": 0,
@@ -2670,8 +2670,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactChildren.js",
       "profile": {
-        "factory": 38,
-        "building": 30
+        "factory": 40,
+        "building": 38
       },
       "failed": false,
       "errors": 0,
@@ -2724,8 +2724,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactComponent.js",
       "profile": {
-        "factory": 37,
-        "building": 34
+        "factory": 39,
+        "building": 41
       },
       "failed": false,
       "errors": 0,
@@ -2778,8 +2778,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactChildren.js",
       "profile": {
-        "factory": 39,
-        "building": 31,
+        "factory": 40,
+        "building": 40,
         "dependencies": 1
       },
       "failed": false,
@@ -2815,8 +2815,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactElementValidator.js",
       "profile": {
-        "factory": 18,
-        "building": 34
+        "factory": 17,
+        "building": 41
       },
       "failed": false,
       "errors": 0,
@@ -2869,8 +2869,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/traverseAllChildren.js",
       "profile": {
-        "factory": 7,
-        "building": 2
+        "factory": 6,
+        "building": 4
       },
       "failed": false,
       "errors": 0,
@@ -2905,9 +2905,9 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 266,
+        "factory": 274,
         "building": 6,
-        "dependencies": 35
+        "dependencies": 36
       },
       "failed": false,
       "errors": 0,
@@ -2951,9 +2951,9 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactComponent.js",
       "profile": {
-        "factory": 37,
-        "building": 33,
-        "dependencies": 1
+        "factory": 38,
+        "building": 41,
+        "dependencies": 0
       },
       "failed": false,
       "errors": 0,
@@ -2997,8 +2997,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactComponent.js",
       "profile": {
-        "factory": 37,
-        "building": 34
+        "factory": 39,
+        "building": 41
       },
       "failed": false,
       "errors": 0,
@@ -3033,8 +3033,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactInstrumentation.js",
       "profile": {
-        "factory": 4,
-        "building": 11,
+        "factory": 5,
+        "building": 12,
         "dependencies": 1
       },
       "failed": false,
@@ -3188,8 +3188,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactComponent.js",
       "profile": {
-        "factory": 38,
-        "building": 33
+        "factory": 40,
+        "building": 40
       },
       "failed": false,
       "errors": 0,
@@ -3233,9 +3233,9 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 266,
-        "building": 15,
-        "dependencies": 29
+        "factory": 274,
+        "building": 16,
+        "dependencies": 30
       },
       "failed": false,
       "errors": 0,
@@ -3270,8 +3270,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactClass.js",
       "profile": {
-        "factory": 29,
-        "building": 34,
+        "factory": 30,
+        "building": 41,
         "dependencies": 0
       },
       "failed": false,
@@ -3316,8 +3316,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactClass.js",
       "profile": {
-        "factory": 30,
-        "building": 34,
+        "factory": 31,
+        "building": 41,
         "dependencies": 0
       },
       "failed": false,
@@ -3362,8 +3362,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactClass.js",
       "profile": {
-        "factory": 30,
-        "building": 33
+        "factory": 31,
+        "building": 40
       },
       "failed": false,
       "errors": 0,
@@ -3416,8 +3416,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactClass.js",
       "profile": {
-        "factory": 30,
-        "building": 34
+        "factory": 31,
+        "building": 42
       },
       "failed": false,
       "errors": 0,
@@ -3452,8 +3452,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 266,
-        "building": 19,
+        "factory": 274,
+        "building": 26,
         "dependencies": 1
       },
       "failed": false,
@@ -3489,9 +3489,9 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 266,
-        "building": 28,
-        "dependencies": 18
+        "factory": 274,
+        "building": 31,
+        "dependencies": 17
       },
       "failed": false,
       "errors": 0,
@@ -3535,8 +3535,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/ReactDOMFactories.js",
       "profile": {
-        "factory": 27,
-        "building": 34
+        "factory": 22,
+        "building": 41
       },
       "failed": false,
       "errors": 0,
@@ -3571,8 +3571,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 267,
-        "building": 33,
+        "factory": 274,
+        "building": 36,
         "dependencies": 12
       },
       "failed": false,
@@ -3608,8 +3608,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 267,
-        "building": 34
+        "factory": 274,
+        "building": 37
       },
       "failed": false,
       "errors": 0,
@@ -3644,8 +3644,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/react/lib/React.js",
       "profile": {
-        "factory": 267,
-        "building": 34,
+        "factory": 275,
+        "building": 36,
         "dependencies": 9
       },
       "failed": false,
@@ -3682,7 +3682,7 @@
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/app/index.js",
       "profile": {
         "factory": 334,
-        "building": 355
+        "building": 365
       },
       "failed": false,
       "errors": 0,
@@ -3717,9 +3717,9 @@
       "assets": [],
       "issuer": "multi style",
       "profile": {
-        "factory": 365,
-        "building": 2,
-        "dependencies": 2
+        "factory": 366,
+        "building": 1,
+        "dependencies": 3
       },
       "failed": false,
       "errors": 0,
@@ -3751,8 +3751,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"extract\":true,\"remove\":true}!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/style-loader/index.js!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/css-loader/index.js!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/purecss/build/pure-min.css",
       "profile": {
-        "factory": 0,
-        "building": 354,
+        "factory": 1,
+        "building": 365,
         "dependencies": 3
       },
       "failed": false,
@@ -3776,8 +3776,8 @@
       "assets": [],
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/css-loader/index.js!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/app/main.css",
       "profile": {
-        "factory": 289,
-        "building": 31
+        "factory": 302,
+        "building": 32
       },
       "failed": false,
       "errors": 0,
@@ -3820,7 +3820,7 @@
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"extract\":true,\"remove\":true}!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/style-loader/index.js!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/css-loader/index.js!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/app/main.css",
       "profile": {
         "factory": 312,
-        "building": 379
+        "building": 388
       },
       "failed": false,
       "errors": 0,
@@ -3845,7 +3845,7 @@
       "assets": [],
       "issuer": "multi style",
       "profile": {
-        "factory": 48,
+        "factory": 50,
         "building": 8
       },
       "failed": false,
@@ -3879,7 +3879,7 @@
       "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/extract-text-webpack-plugin/loader.js?{\"omit\":1,\"extract\":true,\"remove\":true}!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/style-loader/index.js!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/css-loader/index.js!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/app/main.css",
       "profile": {
         "factory": 1,
-        "building": 378
+        "building": 375
       },
       "failed": false,
       "errors": 0,
@@ -3893,12 +3893,12 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "",
+      "publicPath": "/webpack-demo/",
       "assetsByChunkName": {},
       "assets": [
         {
           "name": "index.html",
-          "size": 533717,
+          "size": 533731,
           "chunks": [
             0
           ],
@@ -3917,7 +3917,7 @@
           "files": [
             "index.html"
           ],
-          "hash": "ac000c31813cdad53750",
+          "hash": "d20d2d943ac3c4f01c4b",
           "parents": [],
           "modules": [
             {
@@ -3937,8 +3937,8 @@
               "assets": [],
               "issuer": null,
               "profile": {
-                "factory": 24,
-                "building": 29
+                "factory": 25,
+                "building": 31
               },
               "failed": false,
               "errors": 0,
@@ -3963,8 +3963,8 @@
               "assets": [],
               "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/html-webpack-plugin/default_index.ejs",
               "profile": {
-                "factory": 676,
-                "building": 289
+                "factory": 685,
+                "building": 296
               },
               "failed": false,
               "errors": 0,
@@ -3999,8 +3999,8 @@
               "assets": [],
               "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/lodash/lodash.js",
               "profile": {
-                "factory": 40,
-                "building": 12
+                "factory": 42,
+                "building": 14
               },
               "failed": false,
               "errors": 0,
@@ -4050,8 +4050,8 @@
           "assets": [],
           "issuer": null,
           "profile": {
-            "factory": 24,
-            "building": 29
+            "factory": 25,
+            "building": 31
           },
           "failed": false,
           "errors": 0,
@@ -4076,8 +4076,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/html-webpack-plugin/lib/loader.js!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/html-webpack-plugin/default_index.ejs",
           "profile": {
-            "factory": 676,
-            "building": 289
+            "factory": 685,
+            "building": 296
           },
           "failed": false,
           "errors": 0,
@@ -4112,8 +4112,8 @@
           "assets": [],
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/lodash/lodash.js",
           "profile": {
-            "factory": 40,
-            "building": 12
+            "factory": 42,
+            "building": 14
           },
           "failed": false,
           "errors": 0,
@@ -4139,7 +4139,7 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "",
+      "publicPath": "/webpack-demo/",
       "assetsByChunkName": {},
       "assets": [],
       "chunks": [
@@ -4154,7 +4154,7 @@
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "8e282bcd84b61140801c",
+          "hash": "4a84f46a6d20cb3baa5a",
           "parents": [],
           "modules": [
             {
@@ -4174,8 +4174,8 @@
               "assets": [],
               "issuer": null,
               "profile": {
-                "factory": 0,
-                "building": 264
+                "factory": 1,
+                "building": 267
               },
               "failed": false,
               "errors": 0,
@@ -4201,7 +4201,7 @@
               "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/css-loader/index.js!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/purecss/build/pure-min.css",
               "profile": {
                 "factory": 0,
-                "building": 1
+                "building": 2
               },
               "failed": false,
               "errors": 0,
@@ -4251,8 +4251,8 @@
           "assets": [],
           "issuer": null,
           "profile": {
-            "factory": 0,
-            "building": 264
+            "factory": 1,
+            "building": 267
           },
           "failed": false,
           "errors": 0,
@@ -4278,7 +4278,7 @@
           "issuer": "/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/css-loader/index.js!/Users/adam.riggs/Documents/experiments/webpack/webpack-demo/node_modules/purecss/build/pure-min.css",
           "profile": {
             "factory": 0,
-            "building": 1
+            "building": 2
           },
           "failed": false,
           "errors": 0,
@@ -4304,7 +4304,7 @@
     {
       "errors": [],
       "warnings": [],
-      "publicPath": "",
+      "publicPath": "/webpack-demo/",
       "assetsByChunkName": {},
       "assets": [],
       "chunks": [
@@ -4319,7 +4319,7 @@
           "files": [
             "extract-text-webpack-plugin-output-filename"
           ],
-          "hash": "e6e0fcdcebea8b79a52f",
+          "hash": "666da753b70b65fffd99",
           "parents": [],
           "modules": [
             {
@@ -4340,7 +4340,7 @@
               "issuer": null,
               "profile": {
                 "factory": 0,
-                "building": 194
+                "building": 196
               },
               "failed": false,
               "errors": 0,
@@ -4417,7 +4417,7 @@
           "issuer": null,
           "profile": {
             "factory": 0,
-            "building": 194
+            "building": 196
           },
           "failed": false,
           "errors": 0,
