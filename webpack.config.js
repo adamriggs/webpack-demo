@@ -29,13 +29,7 @@ const common = {
 	},
 	output: {
 		path: PATHS.build,
-
-		// Tweak this to match your GitHub project name
-		publicPath: '/webpack-demo/',
-		filename: '[name].[chunkhash].js',
-		// This will be used for require.ensure.  The setup
-		// will work without but this is useful
-		chunkFilename: '[chunkhash].js'
+		filename: '[name].js'
 	},
 	plugins: [
 		new HtmlWebpackPlugin({
@@ -49,34 +43,6 @@ var config;
 // Detect how npm is run and branch based on that
 switch(process.env.npm_lifecycle_event) {
 	case 'build':
-		// config = merge(common, {});
-		config = merge(
-			common,
-			{
-				devtool: 'source-map',
-				output: {
-					path: PATHS.build,
-					filename: '[name].[chunkhash].js',
-					// This is used for require.ensure.  The setup
-					// will work without but this is useful to set
-					chunkFilename: '[chunkhash].js'
-				}
-			},
-			parts.setFreeVariable(
-				'process.env.NODE_ENV',
-				'production'
-			),
-			parts.extractBundle({
-				name: 'vendor',
-				entries: ['react']
-			}),
-			parts.clean(PATHS.build),
-			parts.minify(),
-			parts.extractCSS(PATHS.style),
-			parts.purifyCSS([PATHS.app])
-			// parts.setupCSS(PATHS.app)
-		);
-		break;
 	case 'stats':
 		config = merge(
 			common,
@@ -84,12 +50,14 @@ switch(process.env.npm_lifecycle_event) {
 				devtool: 'source-map',
 				output: {
 					path: PATHS.build,
+					publicPath: '/webpack-demo/',
 					filename: '[name].[chunkhash].js',
 					// This is used for require.ensure.  The setup
 					// will work without but this is useful to set
 					chunkFilename: '[chunkhash].js'
 				}
 			},
+			parts.clean(PATHS.build),
 			parts.setFreeVariable(
 				'process.env.NODE_ENV',
 				'production'
@@ -98,7 +66,6 @@ switch(process.env.npm_lifecycle_event) {
 				name: 'vendor',
 				entries: ['react']
 			}),
-			parts.clean(PATHS.build),
 			parts.minify(),
 			parts.extractCSS(PATHS.style),
 			parts.purifyCSS([PATHS.app])
