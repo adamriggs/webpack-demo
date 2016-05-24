@@ -31,7 +31,7 @@ const common = {
 		path: PATHS.build,
 
 		// Tweak this to match your GitHub project name
-		publicPath: '/webpack-demo',
+		publicPath: '/webpack-demo/',
 		filename: '[name].[chunkhash].js',
 		// This will be used for require.ensure.  The setup
 		// will work without but this is useful
